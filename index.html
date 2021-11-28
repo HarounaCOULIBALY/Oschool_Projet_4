@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Flipboard</title>
+  </head>
+  <body>
+    <!--menu de navigation-->
+        <header class="container">
+            <nav class="navbar navbar-expand-sm bg-white navbar-light">
+              <!-- Brand -->
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="logo.png" alt="">
+              </a>
+
+              <!-- Links -->
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Obtenir l'app</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tutoriels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Magazine</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Outils web</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Carrière</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Plus
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Communauté</a>
+                    <a class="dropdown-item" href="#">Notre blog</a>
+                    <a class="dropdown-item" href="#">Cartes</a>
+                    <a class="dropdown-item" href="#">Blog en anglais</a>
+                    <a class="dropdown-item" href="#">Annonceurs</a>
+                    <a class="dropdown-item" href="#">Auteurs</a>
+                    <a class="dropdown-item" href="#">A propos</a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+        </header>
+
+        <!--block slider-->
+        <main class="jumbotron border bg-light">
+
+              <article id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <h3>slider</h3>
+                <nav>
+                  <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  </ol>
+                </nav>
+
+
+                <!--container-->
+                  <section class="container container-fluid">
+                    <h3>slider</h3>
+                <!--debut des slider-->
+                      <div class="carousel-inner">
+                <!--slider 1-->
+                        <section class="carousel-item active">
+                            <div class="row">
+                              <div class="page">
+                              <div class="col-sm">
+                                  <div class="para1">
+                                    <h2>Flipboard est votre magazine<br>personnel</h2>
+                                    <p>C'est un lieu unique pour découvrir, collecter et partager les nouvelles qui vous intéressent. Ajoutez vos réseaux sociaux, vos publications et vos blogs favoris pour rester en contact avec les sujets et les personnes les plus proches de vous.
+                                    </p>
+                                  </div>
+                                  <div class="images">
+                                    <a href="#"><img src="App-store.png" alt=""></a>
+                                    <a href="#"><img src="google-play.png" alt=""></a>
+                                    <a href="#"><img src="windows-store.png" alt=""></a><br>
+                                    <a href="#"><img src="blackberry.png" alt=""></a>
+                                  </div>
+                               </div>
+                                 <img class="col-sm" src="home.png" alt="First slide">
+                            </div>
+                          </div>
+                        </section>
+                    <!--slider 2-->
+                          <section class="carousel-item">
+                            <h3>slider</h3>
+                            <div class="page2">
+                              <div class="row">
+                                  <img class="col-sm" src="cover.png" alt="Second slide">
+                              </div>
+                            </div>
+                          </section>
+                    <!--slider 3-->
+                            <section class="carousel-item">
+                                <div class="row">
+                                  <div class="page">
+                                    <div class="col-sm">
+                                      <div class="para3">
+                                        <h2>Profitez des magazines Flipboard</h2>
+                                        <h2>Sur le web</h2>
+                                        <p>Des millions de personnes utilisent Flipboard pour lire et collecter les informations qui les intéressent, en conservant leurs histoires préférées dans leurs propres magazines sur n'importe quel sujet imaginable. Maintenant, les magazines créés par nos lecteurs, de Dali à End Trafficking, peuvent être partagés et appréciés sur le Web par n'importe qui, n'importe où.
+                                        </p>
+                                      </div>
+                                     </div>
+                                    <img class="col-sm" src="magazines.png" alt="Third slide">
+                               </div>
+                              </div>
+                            </section>
+                      <!--slider 4-->
+                            <section class="carousel-item">
+                                <div class="row">
+                                  <div class="col-sm">
+                                    <div class="page">
+                                      <div class="para4">
+                                        <h2>Badges & Widgets</h2>
+                                        <p>Des millions de personnes utilisent Flipboard pour lire et collecter les nouvelles qui leur tiennent à cœur, en conservant leurs histoires préférées dans leurs propres magazines. Maintenant, vous pouvez promouvoir ceux que vous créez ou pensez sont géniaux.
+                                        </p>
+                                       </div>
+                                       <img class="col-sm" src="bw.png" alt="fourth slide">
+                                      </div>
+                                    </div>
+                                  </div>
+                              </section>
+                            </div>
+                  <!--fin des slides-->
+                </section>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+            </article>
+        </main>
+        <!-- fin slider -->
+        <!--compte à rebours-->
+        <footer>
+            <p id="demo"></p>
+        </footer>
+  </body>
+</html>
